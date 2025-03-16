@@ -1,9 +1,8 @@
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
-import './styles.css'; // Ensure this points to your CSS file
-import App from './App'; // No need to add .tsx extension
+import './styles.css'; 
+import App from './App'; 
 
-// Get the root element from your HTML file
 const rootElement = document.getElementById('root');
 
 // Ensure the root element exists before rendering
